@@ -39,20 +39,22 @@ If you want to use your theme for your Piklist files, open your theme’s main f
 You can also create a Piklist plugin if you want. The folder structure is slightly different than the one for a theme. Open your plugin’s main folder and add a “parts” folder. In that folder add any folders you will need. Your folder structure should look like this:
 
 ```text
-/plugin-folder
-  /add-ons
-  /parts
-    /admin-pages (Do not use for settings pages)
-    /dashboard
-    /help
-    /media
-    /meta-boxes
-    /notices
-    /pointers
-    /settings
-    /terms
-    /updates
-    /users
-    /widgets
-    /workflows
+/wp-content
+  /plugins
+    /piklist
+      /add-ons
+        /my-new-add-on (folder for new add-ons)
+        /piklist-demos
+      /includes
+      /parts
+        /admin-pages (Do not use for settings pages)
+        /css
+        /dashboard
+        /fields
+        /media
+        /meta-boxes 
+        ...
+        /terms
+        /updates
+        /workflows
 ```
