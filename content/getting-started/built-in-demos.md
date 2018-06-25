@@ -1,3 +1,9 @@
+Before anything - if you are new to Piklist and you dislike reading documentations and tutorials, watch these two videos.
+
+<a href="https://www.youtube.com/watch?v=wmKjn-fDlvU">video of 2012</a> (sorry, the audio is horrid)
+
+<a href="https://www.youtube.com/watch?v=yo3W6lbNIRM">video of 2013</a> 
+
 ---
 title: "Built-in Demos"
 description: "You can get a good overview of what Piklist is capable of by activating the included “Piklist Demos” add-on."
