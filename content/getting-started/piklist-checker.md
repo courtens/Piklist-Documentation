@@ -25,3 +25,5 @@ If you’re using Piklist in your theme, this code should go in the ``functions.
 
 ### Example
 You can find an example of implementing the Piklist Checker in the <a href="https://wordpress.org/plugins/wp-helpers/">WordPress Helpers plugin</a>.
+
+Note: Add your `class_piklist_checker.php` file to your plugin folder in an new folder `assets` and link the checker to that file.
