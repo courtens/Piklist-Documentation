@@ -1,12 +1,12 @@
 ---
 title: Display Users as a Radio, Checkbox or Select list
-description: Using Piklist you can easily display your Users as Radio, Checkboxes or a Select list (dropdowns).
+description: Using Piklist you can display your Users as Radio, Checkboxes or a Select list (dropdowns).
 hidden: true
 ---
 
 ![Metabox](/images/userguide-users-as-list.jpg)
 
-Using Piklist you can easily display your Users as Radio, Checkboxes or a Select list (dropdowns).  This simple tutorial will show you how.
+Using Piklist you can display your Users as Radio, Checkboxes or a Select list (dropdowns).  This tutorial will show you how.
 
 {{< show-tutorial-start-folders >}}
 
@@ -43,7 +43,7 @@ piklist('field', array(
 Let's take a look at this code:
 
 * First we created a standard Piklist Select list.
-* The only major change is the `choices` array. We told Piklist to use the `get_users()` function, and then passed the `orderby` and order parameters to Piklist.  These parameters are standard to the `get_users()` function and can be found at the [WordPress Codex](http://codex.wordpress.org/Function_Reference/get_users).
+* The only major change is the `choices` array. We told Piklist to use the `get_users()` function, and then passed the `orderby` and order parameters to Piklist.  These parameters are standard to the `get_users()` function and can be found at the [WordPress Codex](https://developer.wordpress.org/reference/functions/get_users/).
 * The next array tells Piklist what should be the KEY for the field, and what should be the VALUE.  In this case we selected ID as the KEY, and DISPLAY_NAME as the VALUE to show in the list.
 
 
@@ -52,5 +52,3 @@ To make this a Checkbox, just change `'type' => 'select'`, to `'type' => 'checkb
 
 **Radio Buttons:**
 To make this Radio Buttons, just change `'type' => 'select'`, to `'type' => 'radio'`.
-
-Yes, it's that easy!
